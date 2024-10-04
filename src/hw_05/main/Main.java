@@ -13,8 +13,7 @@ public class Main {
         ConsoleTreeView view = new ConsoleTreeView();
         FileOperationsImpl<Person> fileOperations = new
                 FileOperationsImpl<>();
-        TreePresenter presenter = new TreePresenter(familyTree,
-                view, fileOperations);
+        TreePresenter presenter = new TreePresenter(familyTree, view, fileOperations);
         presenter.handleUserInput();
     }
 }
